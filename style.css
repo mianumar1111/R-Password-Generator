@@ -1,0 +1,136 @@
+body{
+    background: #002339;
+    color: white;
+}
+
+.container{
+    /* margin: 12%; */
+    width: 90%;
+    max-width: 700px;
+    padding: 5% 8%;
+}
+
+.display{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 26px 20px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.container h1 span{
+    color: rgb(36, 180, 36);
+    border-bottom: 4px solid rgb(36, 180, 36);
+}
+
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    width: 90%;
+}
+
+.Gbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: rgb(36, 180, 36);
+    width: fit-content;
+    height: 70px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.Gbtn img{
+    width: 20%;
+}
+.maincontainer{
+    display: flex;
+}
+
+.Contact{
+    color: rgb(36, 180, 36);
+    margin: 90px;
+    padding: 10px;
+    list-style: none;
+    /* border: 6px double white; */
+    width:auto;
+}
+h2{
+    margin-left: 0;
+    background: #46CFCA;
+    background: linear-gradient(to left, #46CFCA 0%, #CFED58 61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* background: inherit; */
+        
+}
+.Contact li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(36, 180, 36);
+}
+
+@media (max-width: 1000px) {
+    .maincontainer{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .Contact{
+        color:rgb(36, 180, 36);
+        margin: 20px;
+        padding: 10px;
+        list-style: none;
+        width:80%;
+    }
+    h2{
+        margin-left: 0;
+    }
+    .Contact li a{
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(36, 180, 36);
+    }
+    .container{
+        width: 80%;
+        border-radius: 20px;
+        margin: 10%;
+        padding: 2%;
+    }
+}
+@media (max-width: 450px) {
+
+    h1{
+        font-size:25px;
+    }
+    .Gbtn {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 20px;
+        background-color: rgb(36, 180, 36);;
+        width: fit-content;
+        height: 70px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+      .display {
+        width: 90%;
+      }
+}
